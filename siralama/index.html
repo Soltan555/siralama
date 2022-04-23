@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIRALAMA</title>
+    <style>
+        #number {
+            width: 350px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 20px 0px 0px 20px;
+            padding: 5px;
+            padding-left: 13px;
+            outline: none;
+        }
+        
+        .form {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        
+        .form button {
+            padding: 5px 20px;
+            color: #fff;
+            font-weight: bold;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 0px 20px 20px 0px;
+            background-color: green;
+        }
+        /* ul li {
+            display: inline-block;
+            margin-left: 8px;
+        } */
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="form">
+        <input type="number" name="number" id="number" placeholder="Rəqəmləri daxil edin">
+        <button onclick="ars()">GÖR</button>
+    </div>
+
+
+    <ol id="list">
+
+    </ol>
+
+    <button onclick="sirala()">sirala</button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
